@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	background: #eee;
+}
+
+.item {
+	height: 650px;
+	margin-top: 50px;
+}
+
+.menu {
+  width: 200px;
+  background: #3d3d3d;
+  text-align: center;
+}
+
+.menu li {
+  border: 1px solid #ccc;
+}
+
+.menu a {
+  font-size: 20px;
+  color: #fff;
+}
+
+.submenu {
+  display: none;
+  margin: 10px;
+  background-color:#0CF;
+}
+
+.submenu li {
+  border: 0;
+}
+
+.submenu a {
+  font-size: 15px;
+}
+
+.submenu__item:hover {
+  background-color: #005df4;
+}
+/*NAV------------------*/
+nav {
+	width: 500px;
+  margin-top: 100px;
+	background-color: #3d3d3d;
+	padding:10px 0;
+}
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav ul li {
+    display:inline-block;
+    position:relative;
+}
+
+/* sub navigation */
+nav li ul {
+    background-color: #3d3d3d;
+    position:absolute;
+    left:0;
+    top:40px; /* make this equal to the line-height of the links (specified below) */
+    width:200px;
+}
+nav li li {
+    position:relative;
+    margin:0;
+    display:block;
+}
+nav li li ul {
+    position:absolute;
+    top:0;
+    left:200px; /* make this equal to the width of the sub nav above */
+    margin:0;
+}
+
+/* style all links */
+nav a {
+    line-height:40px;
+    padding:0 12px;
+    margin:0 12px;
+}
+nav a {
+    color:#fff;
+    text-decoration:none;
+    display:block;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color: #2eff00;
+}
+
+/* style sub level links */
+nav li li a {
+    border-bottom:solid 1px #000;
+    margin:0 10px;
+    padding:0;
+}
+nav li li:last-child a {
+    border-bottom:none;
+}
+
+/* hide sub menu links */
+ul.sub-menu {
+    display:none;
+}
+
+/* show arrows for dropdowns */
+nav li.dropdown > a {
+    background-image:url('../img/arrow-down.png');
+    background-position:right 20px;
+    background-repeat:no-repeat;
+}
+
+nav li li.dropdown > a {
+    background-image:url('../img/arrow-right.png');
+    background-position:right 16px;
+    background-repeat:no-repeat;
+}

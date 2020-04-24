@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: arial;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  background: #eee;
+}
+
+input[type=checkbox] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+.label {
+	cursor: pointer;
+}
+.label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox.png);
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+input[type=checkbox]:checked + label:after {
+background-position: 0 -17px;
+}
+label:hover:after {
+background-position: 0 -34px;
+}
+input[type=checkbox]:checked + label:hover:after {
+background-position: 0 -51px;
+}

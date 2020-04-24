@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/jcarousel.basic.css">
+    <link rel="stylesheet" href="css/skins.css">
+    <link rel="stylesheet" href="css/cusel.css"/>
+    <link rel="stylesheet" href="css/demo.css"/>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="js/jcarousel/jquery.js"></script>
+    <script type="text/javascript" src="js/jcarousel/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="js/jcarousel/jcarousel.basic.js"></script>
+
+    <script type="text/javascript" src="js/cusel/jquery.js"></script>
+    <script type="text/javascript" src="js/cusel/jquery-migrate-1.1.1.min.js"></script>
+    <script type="text/javascript" src="js/cusel/cusel.js"></script>
+    <script type="text/javascript" src="js/cusel/jScrollPane.js"></script>
+    <script type="text/javascript" src="js/cusel/jquery.mousewheel.js"></script>
+
+    <script type="text/javascript" src="js/checkbox/jquery.checkbox.js"></script>
+
+    <title>js_9/10</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="item">
+        <div class="jcarousel-wrapper">
+          <div class="jcarousel">
+            <ul>
+                <li><img src="img/img1.jpg" alt="#"></li>
+                <li><img src="img/img2.jpg" alt="#"></li>
+                <li><img src="img/img3.jpg" alt="#"></li>
+                <li><img src="img/img4.jpg" alt="#"></li>
+                <li><img src="img/img5.jpg" alt="#"></li>
+                <li><img src="img/img6.jpg" alt="#"></li>
+            </ul>
+            </div>
+            <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true">‹</a>
+            <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true">›</a>
+        </div>
+        <div class="select-wrapper">
+          <div class="lineForm">
+            <select class="sel80" id="country" name="country">
+              <option selected="selected" value="">Выберите страну...</option>
+              <option value="/russia/">Россия</option>
+              <option value="/russia/2.html">Украина</option>
+              <option value="/чехия.cz/">Чехия</option>
+              <option value="4">Словакия</option>
+              <option value="5">Румыния</option>
+              <option value="6">Болгария</option>
+              <option value="7">Польша</option>
+              <option value="8">Германия</option>
+              <option value="9">Франция</option>
+              <option value="10">Англия</option>
+              <option value="11">Испания</option>
+              <option value="12">Пункт с очень-очень-очень длинным названием</option>
+            </select>
+        </div>
+      </div>
+      <div class="checkbox-wrapper">
+        <form action="#">
+        	<div>
+            <label for="ch1">label jQuery 1</label>
+            <input type="checkbox" class="niceCheck" id="ch1" tabindex="1" />
+          </div>
+        	<div>
+            <label for="ch2">label jQuery 2</label>
+            <input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" />
+          </div>
+        	<div>
+            <label for="ch3">label jQuery 3</label>
+            <input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" />
+          </div>
+      	</form>
+        <!-- <form action="#">
+        	<div class="checkbox">
+            <label class="label" for="ch4">label css 1</label>
+            <input type="checkbox" class="goodCheck" id="ch4" tabindex="1"/>
+          </div>
+        	<div class="checkbox">
+            <label class="label" for="ch5">label css 2</label>
+            <input type="checkbox" class="goodCheck" id="ch5"  checked="checked" tabindex="2" value="2"/>
+          </div>
+        	<div class="checkbox">
+            <label class="label" for="ch6">label css 3</label>
+            <input type="checkbox" class="goodCheck" id="ch6"  checked="checked" disabled="disabled"/>
+          </div>
+      	</form> -->
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

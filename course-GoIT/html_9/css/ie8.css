@@ -1,0 +1,89 @@
+body {
+	font-family: 'league gothic';
+}
+
+@font-face {
+    font-family: "league gothic";
+    src: url("../fonts/LeagueGothicRegular.eot");
+    src: url("../fonts/LeagueGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LeagueGothicRegular.woff") format("woff"),
+    url("../fonts/LeagueGothicRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "OpenSansLight"; */
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("../fonts/OpenSansLight.eot");
+    src: url("../fonts/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansLight.woff") format("woff"),
+    url("../fonts/OpenSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.wrrap-head-center {
+	background: #000000; 
+	filter: alpha(Opacity=60);
+}
+
+.phone {
+	margin-right: 60px;
+}
+
+.phone-img-ie {
+	position: absolute; 
+	top: -78px; 
+	left: 63px;
+}
+
+
+.top__h4:hover {
+	filter: shadow(color=#817687, direction=100, strength=10);
+ 	display: block; /* that's the important part */
+}
+
+.top-item-ie {
+	margin: 76px 0 0 24px;
+}
+
+.top-item-ie2 {
+	margin: 76px 0 0 38px;
+}
+
+.lh3-ie {
+	float: left; 
+	color: #edbfff; 
+	margin-left: 5px;
+}
+
+.bh3-ie {
+	color: #b9b9b9;
+}
+
+.bp-ie {
+	display: block;
+}
+
+.bp-ie-2 {
+	display: none;
+}
+
+.bi-ie-2 {
+	margin: 96px 0px 0 11px;
+}
+
+.bh3-ie-2 {
+	margin-bottom: 9px; 
+	font-size: 30px;
+}
+
+.bi-ie-3 {
+	margin: 96px 0px 0 23px;
+}
+
+.bh3-ie-2 {
+	margin-bottom: 9px; 
+	font-size: 30px;
+}

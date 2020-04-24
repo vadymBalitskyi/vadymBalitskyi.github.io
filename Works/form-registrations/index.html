@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<title>registration</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="tabs">
+			<ul class="tabs__caption">
+				<li class="active tabs__li first">Sing in</li>
+				<li class="tabs__li second">Sing up</li>
+			</ul>
+			<div class="tabs__content active">
+				<form action="POST" class="singin">
+					<div class="enter__block">
+						<div class="enter__items">
+							<label class="input-label">Email</label>
+							<input type="email" name="email" class="ng-pristine" required="required" aria-invalid="true">
+						</div>
+					</div>
+					<div class="enter__block">
+						<div class="enter__items">
+							<label class="input-label">Password</label>
+							<input type="password" name="password" class="ng-pristine" required="required" aria-invalid="true">
+						</div>
+					</div>
+					<div class="ng-scope">
+						<div class="ng-scope">
+							<a class="enter__link" href="#">Forgot Password?</a>
+						</div>
+					</div>
+					<div class="form-buttons">
+						<button class="enter__btn">
+							<span class="enter__btn--link"> Sing in </span>
+						</button>
+						<a class="singup__btn--link"> Or sing up </a>
+					</div>
+				</form>
+			</div>
+			<div class="tabs__content">
+				<form class="singup">
+					<div class="enter__block">
+						<div class="enter__items">
+							<label class="input-label">Name</label>
+							<input type="text" name="fullName" class="ng-pristine" required="required" aria-invalid="true">
+						</div>
+					</div>
+					<div class="enter__block">
+						<div class="enter__items">
+							<label class="input-label ng-binding">Email</label>
+							<input type="email" name="email" class="ng-pristine" required="required" aria-invalid="true">
+						</div>
+					</div>
+					<div class="enter__block">
+						<div class="enter__items">
+							<label class="input-label ng-binding">Password</label>
+							<input type="password" name="password" class="ng-pristine" required="required" aria-invalid="true">
+						</div>
+					</div>
+					<div class="enter__block">
+						<div class="enter__items">
+							<label class="input-label">Phone number</label>
+							<input type="tel" name="phone" class="ng-pristine" aria-invalid="false">
+						</div>
+					</div>
+					<div class="enter__block">
+						<div class="enter__items">
+							<h3 class="select__h3 input-label">HOW DID YOU MEET US?</h3>
+							<div class="select">
+								<input type="hidden" name="item" value="1">
+								<div class="selected"></div>
+								<div class="option-list">
+									<div class="option" data-select-val="0">Facebook</div>
+									<div class="option" data-select-val="1">LinkedIn</div>
+									<div class="option" data-select-val="2">Adwords</div>
+									<div class="option" data-select-val="3">Twitter</div>
+									<div class="option" data-select-val="4">Forums</div>
+									<div class="option" data-select-val="5">Conferences</div>
+									<div class="option" data-select-val="6">Recommendation</div>
+									<div class="option" data-select-val="7">Others</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<div class="form-checkbox">
+					<input type="checkbox" class="checkbox" checked>
+					<p class="checkbox__paragraph">I agree to the <a class="checkbox__link" href="#">Terms of Service</a></p>
+				</div>
+				<div class="form-buttons">
+					<button class="enter__btn">
+						<span class="enter__btn--link"> Sing up </span>
+					</button>
+					<a class="singup__btn--link"> Or sing in </a>
+				</div>
+				</form>
+			</div>
+		</div>
+		<div class="tabs--second">
+			<p class="tabs__paragraph">Nice to Meet You!</p>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

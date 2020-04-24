@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: arial;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+}
+
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+.select-wrapper {
+  padding: 40px 0;
+}
+
+form {
+	background: #ccc;
+	padding: 10px;
+}
+
+.niceCheck {
+width: 17px;
+height: 17px;
+display: inline-block;
+cursor: pointer;
+background: url(../img/checkbox.png);
+overflow: hidden;
+}
+.niceCheck input {
+  display: none;
+}
+
+.niceChecked {
+	background-position: 0 -17px;
+}
+.niceCheck input {
+	margin-left: -100px;
+}
+div {
+	margin-bottom: 10px;
+}
+.niceCheckDisabled {
+	background-image: url(../img/checkbox-disabled.png);
+}
+form {
+  margin: 20px 0;
+}
+
+.checkbox input[type=checkbox]{
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+.label {
+	cursor: pointer;
+}
+.label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox.png);
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+.checkbox input[type=checkbox]:checked + .label:after {
+background-position: 0 -17px;
+}
+.label:hover:after {
+background-position: 0 -34px;
+}
+.checkbox input[type=checkbox]:checked + .label:hover:after {
+background-position: 0 -51px;
+}

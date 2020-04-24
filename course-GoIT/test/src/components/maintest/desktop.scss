@@ -1,0 +1,53 @@
+& {
+
+}
+
+@media (max-width: 959px) {
+  .header {
+    width: 670px;
+  }
+  .content {
+    width: 750px;
+  }
+  .jcarousel-wrapper {
+    width: 230px;
+    margin-right: 30px;
+    .jcarousle__items {
+      width: 230px;
+    }
+    .jcarousel__h6 {
+      width: 205px;
+      font-weight: normal;
+    }
+    .jcarousel__img {
+      width: 230px;
+      height: 400px;
+    }
+    .jcarousel-control-prev,
+    .jcarousel-control-next {
+      top: 40px;
+    }
+  }
+  .partner {
+    width: 460px;
+    margin: 0 auto;
+  }
+
+  .partner__block--first,
+  .partner__block--second {
+    margin-bottom: 60px;
+  }
+
+  .grid-item {
+    width: 235px;
+    float: left;
+  }
+
+  .grid-item--width2 {
+    width: 490px;
+  }
+
+  .footer {
+    width: 670px;
+  }
+}

@@ -1,0 +1,132 @@
+
+
+/*HEADER*//
+
+body {
+	background-color: #f9f9f9;
+}
+
+.wraperr {
+	margin: 0 50px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.item {
+	margin: 0 auto;
+	width: 966px;
+	padding: 46px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.49);
+	-moz-box-shadow: 0 0 15px -1px rgba(0, 0 ,0, 0.49);
+	box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.49);
+}
+
+.header {
+	margin: 40px 0 40px 0;
+}
+
+.menu {
+	width: 966px;
+	font-size: 14px;
+	background-color: #4f4e4e;
+	padding: 16px 0;
+	text-shadow: 1px 1px 1px black;
+}
+
+ul.menu li {
+	display: inline-block;
+	color: #fff;
+	padding: 0 22px;
+}
+
+ul.menu li a {
+	text-decoration: none;
+	color: #ebebeb;
+	padding: 15px;
+}
+
+ul.menu li a:hover {
+	background: #323232;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+	margin: 0 -1px 0 -1px;
+}
+
+.navigation {
+	width: 220px;
+	height: 240px;
+	float: left;
+	background: #fff;
+	text-shadow: 1px 1px 1px #cecece;
+	font-size: 14px;
+}
+
+.navigation-line a {
+	border-top: 1px solid #c8c8c8;
+	border-right: 1px solid #c8c8c8;
+	border-left: 1px solid #c8c8c8;
+	display: block;
+	transition: 0.5s all;
+	padding: 12px 0 12px 23px;
+}
+
+.navigation-line a.last-line {
+	border-bottom: 1px solid #c8c8c8;
+	display: block;
+	transition: 0.5s all;
+	padding: 12px 0 12px 23px;
+}
+
+.navigation-line a:hover {
+	background: #f9f9f9;
+	padding: 12px 0px 12px 35px;
+	color: #2c2c2c;
+}
+
+a {
+	text-decoration: none;
+	color: #656363;
+}
+
+/*CONTENT*/
+
+.content {
+	width: 679px;
+	height: 650px;
+	float: right;
+}
+
+/*FOOTER*/
+
+.footer {
+	clear: both;
+	width: 966px;
+	font-size: 14px;
+	background-color: #e1e1e1;
+	padding: 16px 0;
+	text-shadow: 1px 1px 1px #bbb;
+}
+
+.menu-bottom li {
+	display: inline; /* Отображать как строчный элемент */
+	color: #2c2c2c;
+	padding: 0 52px 0 25px;
+}
+
+.menu-bottom li a {
+	text-decoration: none;
+}
+
+.menu-bottom li a:hover {
+	text-decoration: underline;
+}
+
+.menu-bottom li a.underline {
+	text-decoration: none;
+}
+
+.menu-bottom li a.deadline {
+	float: right;
+	padding-right: 20px;
+	text-decoration: none;
+}

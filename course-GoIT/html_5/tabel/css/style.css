@@ -1,0 +1,33 @@
+
+table {
+	margin: 50px auto;
+	padding: 0;
+	border-collapse: collapse;
+	width: 430px;
+}
+
+tr{
+	height: 50px;
+	border: 10px solid #000;
+}
+
+td{
+	width: 50px;
+	border: 10px solid #000;
+}
+
+.yellow {
+	background: yellow;
+}
+
+.red {
+	background: red;
+}
+
+.gray {
+	background: gray;
+}
+
+.blue {
+	background: blue;
+}

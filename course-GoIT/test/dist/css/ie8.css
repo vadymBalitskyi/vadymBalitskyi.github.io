@@ -1,0 +1,98 @@
+@import 'theme/reset';
+@import 'theme/fonts';
+@import 'maintest/main';
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('/fonts/montserrat-regular-webfont.eot');
+    src: url('fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	 url('/fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('/fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}	
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('fonts/roboto-light-webfont.eot');
+    src: url('fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+	 url('fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'montserrat';
+}
+
+
+.header__h4 {
+  font-family: 'robotolight';
+}
+
+.logo,
+.header__link,
+.header__h3,
+.header__h4,
+.enter__link {
+  color: #ffffff;
+}
+
+.header__title {
+  width: 500px;
+}
+
+.wrap-header {
+  height: 700px;
+  background: url(../images/background.jpg);
+  background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+.slider__title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  font-family: robotolight;
+}
+
+
+.jcarousel-wrapper {
+  margin-right: 13px;
+}
+
+.jcarousel__h3--second {
+  width: 210px;
+}
+
+.partner__h3,
+.masonry__title,
+.search__h3, 
+.company__items:first-child {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.enter__link {
+  border: 2px solid #fff;
+}
+
+.enter__link:first-child {
+  border: 0;
+}
+
+
+.grid-item{
+ margin-right: 16px;
+ margin-bottom: 16px;
+}
+
+.grid-item-ie8{
+ margin-right: 0;
+}
